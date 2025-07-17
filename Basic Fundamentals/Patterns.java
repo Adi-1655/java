@@ -1,0 +1,21 @@
+// import java.util.*;
+
+public class Patterns {
+
+    public static void main(String args[]){
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        for(int i=1; i<=5;i++)
+        {
+            for(int j=1; j<=i; j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println(" ");
+        }
+
+        
+    
+    }
+}
+  
