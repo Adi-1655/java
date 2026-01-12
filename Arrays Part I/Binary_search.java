@@ -5,7 +5,7 @@ public class Binary_search {
         int end = num.length -1;
 
         while(start <= end) {
-            int mid = start + (end - start) / 2;
+            int mid = start + (end - start) / 2; // This line is used for the optimization of program in which the data is very latge
             if(num[mid] == key) {
                 return mid;
             }
